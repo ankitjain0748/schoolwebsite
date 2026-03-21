@@ -1,6 +1,4 @@
-import axios from 'axios';
 import { useState } from 'react';
-import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
 import ContactCards from './ContactCards';
 import emailjs from "@emailjs/browser";

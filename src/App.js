@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -13,15 +12,6 @@ import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 1200);
-
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <Router>
