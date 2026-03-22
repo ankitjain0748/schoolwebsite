@@ -33,8 +33,13 @@ const Header = () => {
         {/* Logo */}
         <div
           onClick={() => scrollToSection("home")}
-          className="text-xl font-semibold cursor-pointer"
+            className="cursor-pointer flex items-center gap-2"
         >
+            <img
+              src="/logo.png"
+              alt="logo"
+              className="h-10 w-10 object-contain"
+            />
           <span className="text-black">Tagore</span>{" "}
           <span className="text-[#eea02b] font-bold">Academy</span>
         </div>
